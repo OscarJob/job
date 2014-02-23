@@ -90,7 +90,7 @@ my $serverPort = "zenit.senecac.on.ca:3306";
 my $serverUser = "int322_121sa14";
 my $serverPass = "ddZH5427";
 my $serverDb = "int322_121sa14";
-
+ 
 my ($dbh, $sth, @row);
 my $dbh = DBI->connect("DBI:mysql:database=$serverDb;host=$serverName;port=$serverPort", $serverUser, $serverPass);
 #print "connected";
