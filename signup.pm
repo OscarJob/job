@@ -18,7 +18,7 @@ use CGI qw( :standard );
 #       print "signup info has not submitted";
 #       signup();
 #}
-sub signup{
+sub signup{ 
 print "signing",br();
         	print start_form(-action => "http://zenit.senecac.on.ca/~int322_121sa14/cgi-bin/assn3/checkform.pl"), br();
        	 print "SIGN UP FORM", br();
