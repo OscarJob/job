@@ -71,7 +71,7 @@ else{
 sub checkemail{
 if ($signemail =~ /^\w*@.*\.com$/){
         print "ok email", br();
-        return 1;
+        return 1; 
 }
 else{
         print "not email", br();
@@ -79,7 +79,7 @@ else{
 }
 }
 
-print end_html();
+print end_html(); 
 
 
 
