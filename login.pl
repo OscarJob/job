@@ -19,16 +19,7 @@ print submit("submit form"), end_form();
 }
 
 if (param()){
-if($hidden ne "updatetable"){
-if (($user eq "administrator") && ($pwd eq "Admin123")){
-     			update::update();
-}
-else{
-        		if(searchuser() eq "found"){
-        			welcome();
-        		}
-        		else{
-        			print "login error! Please log in again";
+if($hidden ne "updatetable"){ 
         			signup::signup();
         			print start_form (), "username", textfield("username"), br();
         			print "password", '<input type = "password" name="password" /> ';
